@@ -1,0 +1,118 @@
+body{
+    font-family: fantasy;
+    background: url(sakura.jpeg);
+}
+
+
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: #be438f;
+    background: #fcb8dd;
+    border: 2px solid #be438f;
+    border-radius: 20px;
+}
+
+form{
+    /*width: 50%;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fad9f0;
+    border: 1px solid  #be438f;*/
+
+    width: 45% ;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+
+}
+
+
+form p{
+    color: red;
+    margin: 0px;
+    text-align: justify;
+   
+}
+
+.task_input{
+
+    width: 80%;
+    height: 15px;
+    padding: 10px;
+    /*border: 2px solid  #be438f*/;
+    border-radius: 10px;
+    background-color: #fcb8dd;
+}
+
+.add_btn{
+    /*height: 39px;
+    background: #f5e2ef;
+    color:  #be438f;
+    border: 2px solid  #be438f;
+    border-radius: 5px;
+    padding: 5px 20px;*/
+
+    height: 40px;  
+    background: #f5e2ef;
+    color:  #be438f; 
+    border-radius: 50px;
+    padding: 5px 10px;
+
+    
+}
+
+@media (max-width: 732px){
+    .task_input{
+        width: 70%;
+    }
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fcb8dd;
+    border-collapse: separate;
+    border-radius: 10px;
+    color:#be438f;
+    
+}
+
+tr{
+    border-bottom: 1px solid  #be438f;
+}
+
+th{
+    font-size: 19px ;
+    color: #be438f;
+}
+
+th,td{
+    border:none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover{
+    background: #e9e9e9;
+}
+
+.task{
+    text-align: left ;
+    
+}
+
+.delete{
+    text-align: center;
+}
+
+.delete a{
+    color: #be438f;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
